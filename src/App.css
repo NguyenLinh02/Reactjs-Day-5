@@ -1,0 +1,65 @@
+header{
+  border-bottom: 1px solid #000;
+}
+.App{
+  width: 100%;
+}
+.HeaderTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background:#33c4e8;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container{
+  width: 80%;
+  background: gray;
+  padding-left: 10px;
+  color: white;
+}
+
+.education h3, .experience h3, .project h3, .organization h4{
+  margin-top: 20px;
+}
+.project h4{
+  margin-top: 20px;
+}
+.information{
+  color: white;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*background: #808080ab;*/
+  background: #414142;
+}
+
+.InformationBasic{
+  background: #514f50;
+  width: 80%;
+  margin-top: 15px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.skills{
+  margin-top: 15px;
+  margin-right: 20%;
+}
+img{
+  margin-top: 15px;
+  width: 250px;
+  border-radius: 50%;
+}
+.education h3, .experience h3, .organization h3, .project h3, .InformationBasic h3, .skills h3{
+  color:#33c4e8;
+}
